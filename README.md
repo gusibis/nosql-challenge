@@ -1,5 +1,10 @@
 # nosql-challenge
 Module 12 NoSQL and MongoDB
+
+Executed the command below to impport the establishments.json file. There is an image avaiable in the Resources folder in this repo. 
+
+c:\Program Files\MongoDB\Server\6.0\bin\bin>mongoimport --type json -d uk_food -c establishments --drop --jsonArray "C:\c_folder\c_folder\MODULE12\nosql-challenge\Resources\establishments.json"
+
 Instructions:
 The UK Food Standards Agency evaluates various establishments across the United Kingdom, and gives them a food hygiene rating. You've been contracted by the editors of a food magazine, Eat Safe, Love, to evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles.
 
